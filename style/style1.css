@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color:transparent;
+}
+
+.noscroll {
+    height: 100%;
+    overflow:hidden;
+}
+
+
+
+.bg{
+    margin: 0;
+   
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   position: relative;
+   
+
+   
+}
+
+.bg2{
+    margin: 0;
+    width:100vw;
+    height: 100vh;
+    background-image:url(../images&videos/screen.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+ 
+    
+}
+
+
+.bg2s{
+    margin: 0;
+    width:100vw;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    flex-wrap: wrap;
+   
+}
+
+
+.v{
+    width: 1090px;
+    height: 768px;
+    max-width: 100vw;
+    max-height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index:0;
+   
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .v {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .v {
+        width: auto;
+        height: 100%;
+    }
+}
+
+.headpos{
+    position:absolute;
+    top:0;
+    background-color: transparent;
+    z-index:1;
+}
+
+.nav-pills .nav-link {
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    font-size:23px;
+    font-family: "Bodoni Moda", serif;
+    
+}
+
+.btn1{
+   
+        position: relative; 
+        z-index: 10;
+        top:100%;
+        font-family: "Bodoni Moda", serif;
+            
+}
+
+.bg-white{
+    width:250px;
+    opacity: 70%;
+    font-family: "Bodoni Moda", serif; 
+}
+
+
+.lead{
+    color:white;
+    font-family: "Bodoni Moda", serif;
+}
+
+
+.st{
+    color:white;
+}
+
+.stp{
+    color:bisque;
+}
+
+.conpos{
+    position:absolute;
+    top: 50px;
+    background-color: transparent;
+    z-index:1;
+}
+
+.conpos2{
+  position:relative;
+  top: 230px;
+  background-color: transparent;
+  z-index:1;
+ 
+}
+
+@media (max-width: 992px) { /* Tablets and smaller screens */
+    .conpos, .conpos2 {
+        position: relative;  
+        top: 20px;  /* Reduce spacing */
+        margin-top: 10px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .col-md-6, .col-md-3 {
+        width: 100%; /* Full width on small screens */
+        margin-bottom: 20px; /* Add space between stacked items */
+    }
+
+    .col-auto img {
+        width: 100%; /* Make images responsive */
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile screens */
+    .conpos, .conpos2 {
+        top: 0; /* Remove excess spacing */
+        margin-top: 20px;
+    }
+
+    .row {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .col-md-6, .col-md-3 {
+        width: 100%;
+        margin-bottom: 15px; /* Ensure proper spacing */
+    }
+
+    .col-auto img {
+        width: 100%; /* Make images responsive */
+        height: auto;
+    }
+}
+
+
+
+.pospic{
+    display: flex;
+    align-items:"center";
+    justify-content:"center";
+    position: "relative";
+
+}
+
+
+.headpos1{
+
+   
+    top:0;
+    z-index:1;
+
+}
+
+.btpos{
+    position:absolute;
+    top:0;
+    
+}
+
+.nav .nav-link{
+
+color:rgb(255, 255, 255);
+    font-weight:bold;
+    font-size:20px;
+    font-family: "Bodoni Moda", serif;
+}
+
+.conbg {
+    color: #fff;
+    z-index: 100;
+   
+}
+
+.p-3{
+    padding:0.8 rem;
+}
+
+.fotpos{
+    position:absolute;
+    bottom: 0%;
+    
+}
+
